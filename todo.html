@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+          font-family: "Sofia", sans-serif;
+        }
+        </style>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <title>To Do List</title>
+</head>
+<body>
+   
+    <div id="myDIV" class="header">
+        <h2>Kate's To Do List</h2>
+        <input type="text" id="myInput" placeholder="Add a To Do...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Yoga</li>
+        <li class="checked">Homework</li>
+        <li>Boys' homework</li>
+        <li>Cancel boys' dentist app</li>
+        <li>Grocery</li>
+        <li>Bank</li>
+        <li>Fold laundry</li>
+        <li>Pack lunches</li>
+      </ul>   
+    <div id="img">
+        <img src="tdl.jpg" class="img-responsive" alt="Woman with List">
+    </div>  
+    <script src="todo.js"></script>
+</body>
+</html>
